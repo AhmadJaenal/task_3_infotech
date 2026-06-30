@@ -1,71 +1,72 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:task_3_infotech/app/common/core/constant/app_color.dart';
 
 class AppTextStyle {
-  static TextStyle title = GoogleFonts.manrope().copyWith(
-    fontSize: 36.sp,
+  static TextStyle title = GoogleFonts.inter().copyWith(
+    fontSize: 36,
     fontWeight: AppWeightFont.extraBold,
+    color: AppColors.black100,
   );
-
-  static TextStyle h1 = GoogleFonts.manrope().copyWith(
-    fontSize: 28.sp,
+  static TextStyle h1 = GoogleFonts.inter().copyWith(
+    fontSize: 28,
     fontWeight: AppWeightFont.bold,
+    color: AppColors.black100,
   );
-
-  static TextStyle h2 = GoogleFonts.manrope().copyWith(
-    fontSize: 24.sp,
+  static TextStyle h2 = GoogleFonts.inter().copyWith(
+    fontSize: 24,
     fontWeight: AppWeightFont.bold,
+    color: AppColors.black100,
   );
-
-  static TextStyle h3 = GoogleFonts.manrope().copyWith(
-    fontSize: 20.sp,
+  static TextStyle h3 = GoogleFonts.inter().copyWith(
+    fontSize: 20,
     fontWeight: AppWeightFont.bold,
+    color: AppColors.black100,
   );
-
-  static TextStyle paragraphL = GoogleFonts.manrope().copyWith(
-    fontSize: 16.sp,
+  static TextStyle paragraphL = GoogleFonts.inter().copyWith(
+    fontSize: 16,
     fontWeight: AppWeightFont.reguler,
+    color: AppColors.black100,
   );
-
-  static TextStyle paragraphM = GoogleFonts.manrope().copyWith(
-    fontSize: 14.sp,
+  static TextStyle paragraphM = GoogleFonts.inter().copyWith(
+    fontSize: 14,
     fontWeight: AppWeightFont.reguler,
+    color: AppColors.black100,
   );
-
-  static TextStyle paragraphS = GoogleFonts.manrope().copyWith(
-    fontSize: 12.sp,
+  static TextStyle paragraphS = GoogleFonts.inter().copyWith(
+    fontSize: 12,
     fontWeight: AppWeightFont.reguler,
+    color: AppColors.black100,
   );
-
-  static TextStyle paragraphXS = GoogleFonts.manrope().copyWith(
-    fontSize: 10.sp,
+  static TextStyle paragraphXS = GoogleFonts.inter().copyWith(
+    fontSize: 10,
     fontWeight: AppWeightFont.reguler,
+    color: AppColors.black100,
   );
-
-  static TextStyle paragraphLBold = GoogleFonts.manrope().copyWith(
-    fontSize: 16.sp,
+  static TextStyle paragraphLBold = GoogleFonts.inter().copyWith(
+    fontSize: 16,
     fontWeight: AppWeightFont.bold,
+    color: AppColors.black100,
   );
-
-  static TextStyle paragraphMBold = GoogleFonts.manrope().copyWith(
-    fontSize: 14.sp,
+  static TextStyle paragraphMBold = GoogleFonts.inter().copyWith(
+    fontSize: 14,
     fontWeight: AppWeightFont.bold,
+    color: AppColors.black100,
   );
-
-  static TextStyle paragraphSBold = GoogleFonts.manrope().copyWith(
-    fontSize: 12.sp,
+  static TextStyle paragraphSBold = GoogleFonts.inter().copyWith(
+    fontSize: 12,
     fontWeight: AppWeightFont.bold,
+    color: AppColors.black100,
   );
-
-  static TextStyle paragraphXSBold = GoogleFonts.manrope().copyWith(
-    fontSize: 10.sp,
+  static TextStyle paragraphXSBold = GoogleFonts.inter().copyWith(
+    fontSize: 10,
     fontWeight: AppWeightFont.bold,
+    color: AppColors.black100,
   );
-
   static TextStyle paragraphSecondaryS = GoogleFonts.lexend().copyWith(
-    fontSize: 14.sp,
+    fontSize: 14,
     fontWeight: AppWeightFont.light,
+    color: AppColors.black100,
   );
 }
 
